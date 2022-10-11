@@ -5,7 +5,7 @@ df -h | grep sda
 sudo apt autoremove && sudo apt autoclean
 sudo apt clean
 
-lbryblob="/home/$USER/.local/share/lbry/lbrynet/blobfiles"
+lbryblob="/home/$USER/.local/share/lbry/lbrynet/blobfiles/"
 
 
 if [ -d "~/.local/share/lbry/lbrynet/blobfiles" ];
